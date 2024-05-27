@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: ui-sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/761/613/75/abstract-sky-sun-clouds-wallpaper-thumb.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: #bfdfffdf;
+    color: #bfdfffdf;
+    padding: 29px 35px;
+    text-align: center;
+    margin: 19px auto;
+    width: 57%;
+    border-radius: 40px;
+    height: 600px;
+}
+
+
+
+/* #search-container {
+    margin-top: 20px;
+    right: -100%;
+    text-align: center;
+} */
+
+#city-input {
+    width: 97%;
+   
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+#city-input input{
+    width: 45%;
+    color: #bfdfffdf;
+    font-size: 20px;
+    text-transform: capitalize; /*capitalizes first letter in a word*/
+    background-color: #2f52bd;
+    padding: 15px 40px;
+    border-radius: 25px
+    
+
+}
+
+#city-input input::placeholder{
+    color: #bfdfffdf;
+}
+
+#city-input button{
+    width: 43px;
+    height: 41px;
+    background-color: #2f52bd;
+    border-radius: 54%;
+    cursor: pointer;
+    font-size: 18px;
+    color: #bfdfffdf;
+    margin: 0px 5px;
+    margin-right: 29px;
+}
+
+#city-input button:hover{
+    color:  #2f52bd;
+    background-color: #bfdfffdf;
+}
+h2{
+    color: #2f52bd;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+.weather-current {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-details p {
+    margin: 10px 0;
+}
+
+.weather-history {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+table {
+    width: 80%;
+    border-collapse: separate;
+    margin-top: 20px;
+    /* border-bottom-width: thick; */
+    color: white;
+    margin:10px auto;
+}
+
+th, td {
+    padding: 18px;
+    border: 3px solid #bfdfffdf
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.weather-det{
+    width: 106%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 29px;
+    color: black;
+}
+
+
+
+.humidity, .wind,.pressure{
+    display: flex;  /*icon ra lekheko row*/
+    justify-content: center;
+    align-items: center;
+}
+
+.pressure:hover,.humidity:hover,.wind:hover{
+    box-shadow:  50px 50px 50px rgba(134, 193, 253, 0.875) inset;
+    color: #2f52bd;
+   
+}
+#temperature:hover{
+    font-family: cursive;
+    font-size: 45px;
+}
+
+.humidity{
+   
+    background-color: #bfdfffdf;
+    width: 150px;
+    height: 48px;
+    border-radius: 31px
+}
+
+.wind{
+   
+    background-color: #bfdfffdf;
+    width: 163px;
+    height: 48px;
+    border-radius: 31px
+}
+
+.pressure{
+   
+    background-color: #bfdfffdf;
+    width: 163px;
+    height: 48px;
+    border-radius: 31px
+}
+
+.press {
+ 
+    height: 37px;
+    margin-left: 13px;
+}
+.weather-det i{
+    margin-left: 13px;
+    font-size: 36px;
+    
+}
+
+#humidity, #wind, #pressure {
+    margin-left: 10px;   /*icon bata humidity ra windspeed halka tada gayo*/
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.text span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.weather-body{
+    height: 445px;
+    
+    text-align: center;
+    flex-direction: column;
+    margin-block: 25px;
+    background-color: skyblue;
+    border-radius: 45px;
+
+}
+
+#city-header{
+  font-size: 50px;
+    
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+#temperature{
+      font-size: 50px;
+    font-weight: 700;
+  }
+#description{
+      font-size: 30px;
+    
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+#main{
+  font-size:30px;
+  }
